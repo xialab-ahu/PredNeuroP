@@ -16,16 +16,16 @@ Email: [jfxia[at]ahu.edu.cn](mailto:jfxia@ahu.edu.cn)
   
   - `Windows` ：Windows7 or later
   
-  - `Linux`：Ubuntu16.04 LTS or later
+  - `Linux`：Ubuntu 16.04 LTS or later
   
   Python：
   
   - `Python` >= 3.6
   
-- Download `PredNeuroP `to your computer
+- Download `PredNeuroP`to your computer
 
   ```bash
-  git clone https://e.coding.net/xtzhwei/PreNeuroP/PredNeuroP.git
+  git clone https://github.com/xialab-ahu/PredNeuroP.git
   ```
 
 - open the dir and install `requirement.txt` with `pip`
@@ -37,8 +37,8 @@ Email: [jfxia[at]ahu.edu.cn](mailto:jfxia@ahu.edu.cn)
 
 ## Predict 
 
-```
-python PredNeuroP.py -f file.fasta -o result.txt
+```shell
+python PredNeuroP.py -f ./sample/sample.txt -o ./sample/sample_result.csv
 ```
 
 - `-f `: input the test file with fasta format

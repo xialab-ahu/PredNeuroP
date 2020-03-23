@@ -1,0 +1,6 @@
+.venv/
+.idea/
+__pycache__/
+.pytest_cache/
+imgs/
+修改记录.md
